@@ -1,0 +1,201 @@
+Attaching to sample_db_1, sample_web_1
+[36mdb_1   |[0m Initializing database
+[36mdb_1   |[0m 
+[36mdb_1   |[0m 
+[36mdb_1   |[0m PLEASE REMEMBER TO SET A PASSWORD FOR THE MariaDB root USER !
+[36mdb_1   |[0m To do so, start the server, then issue the following commands:
+[36mdb_1   |[0m 
+[36mdb_1   |[0m '/usr/bin/mysqladmin' -u root password 'new-password'
+[36mdb_1   |[0m '/usr/bin/mysqladmin' -u root -h  password 'new-password'
+[36mdb_1   |[0m 
+[36mdb_1   |[0m Alternatively you can run:
+[36mdb_1   |[0m '/usr/bin/mysql_secure_installation'
+[36mdb_1   |[0m 
+[36mdb_1   |[0m which will also give you the option of removing the test
+[36mdb_1   |[0m databases and anonymous user created by default.  This is
+[36mdb_1   |[0m strongly recommended for production servers.
+[36mdb_1   |[0m 
+[36mdb_1   |[0m See the MariaDB Knowledgebase at http://mariadb.com/kb or the
+[36mdb_1   |[0m MySQL manual for more instructions.
+[36mdb_1   |[0m 
+[36mdb_1   |[0m Please report any problems at http://mariadb.org/jira
+[36mdb_1   |[0m 
+[36mdb_1   |[0m The latest information about MariaDB is available at http://mariadb.org/.
+[36mdb_1   |[0m You can find additional information about the MySQL part at:
+[36mdb_1   |[0m http://dev.mysql.com
+[36mdb_1   |[0m Consider joining MariaDB's strong and vibrant community:
+[36mdb_1   |[0m https://mariadb.org/get-involved/
+[36mdb_1   |[0m 
+[36mdb_1   |[0m Database initialized
+[36mdb_1   |[0m MySQL init process in progress...
+[36mdb_1   |[0m 2019-09-04 18:38:38 0 [Note] mysqld (mysqld 10.4.7-MariaDB-1:10.4.7+maria~bionic) starting as process 105 ...
+[36mdb_1   |[0m 2019-09-04 18:38:38 0 [Note] InnoDB: Using Linux native AIO
+[36mdb_1   |[0m 2019-09-04 18:38:38 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+[36mdb_1   |[0m 2019-09-04 18:38:38 0 [Note] InnoDB: Uses event mutexes
+[36mdb_1   |[0m 2019-09-04 18:38:38 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+[36mdb_1   |[0m 2019-09-04 18:38:38 0 [Note] InnoDB: Number of pools: 1
+[36mdb_1   |[0m 2019-09-04 18:38:38 0 [Note] InnoDB: Using SSE2 crc32 instructions
+[36mdb_1   |[0m 2019-09-04 18:38:38 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+[36mdb_1   |[0m 2019-09-04 18:38:38 0 [Note] InnoDB: Initializing buffer pool, total size = 256M, instances = 1, chunk size = 128M
+[36mdb_1   |[0m 2019-09-04 18:38:38 0 [Note] InnoDB: Completed initialization of buffer pool
+[36mdb_1   |[0m 2019-09-04 18:38:38 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+[36mdb_1   |[0m 2019-09-04 18:38:38 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+[36mdb_1   |[0m 2019-09-04 18:38:38 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+[36mdb_1   |[0m 2019-09-04 18:38:38 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+[36mdb_1   |[0m 2019-09-04 18:38:38 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+[36mdb_1   |[0m 2019-09-04 18:38:38 0 [Note] InnoDB: Waiting for purge to start
+[36mdb_1   |[0m 2019-09-04 18:38:38 0 [Note] InnoDB: 10.4.7 started; log sequence number 139827; transaction id 21
+[36mdb_1   |[0m 2019-09-04 18:38:38 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+[36mdb_1   |[0m 2019-09-04 18:38:38 0 [Note] Plugin 'FEEDBACK' is disabled.
+[36mdb_1   |[0m 2019-09-04 18:38:38 0 [Warning] 'user' entry 'root@a274fa16c8bb' ignored in --skip-name-resolve mode.
+[36mdb_1   |[0m 2019-09-04 18:38:38 0 [Warning] 'user' entry '@a274fa16c8bb' ignored in --skip-name-resolve mode.
+[36mdb_1   |[0m 2019-09-04 18:38:38 0 [Warning] 'proxies_priv' entry '@% root@a274fa16c8bb' ignored in --skip-name-resolve mode.
+[36mdb_1   |[0m 2019-09-04 18:38:38 0 [Note] Reading of all Master_info entries succeeded
+[36mdb_1   |[0m 2019-09-04 18:38:38 0 [Note] Added new Master_info '' to hash table
+[36mdb_1   |[0m 2019-09-04 18:38:38 0 [Note] mysqld: ready for connections.
+[36mdb_1   |[0m Version: '10.4.7-MariaDB-1:10.4.7+maria~bionic'  socket: '/var/run/mysqld/mysqld.sock'  port: 0  mariadb.org binary distribution
+[36mdb_1   |[0m 2019-09-04 18:38:38 0 [Note] InnoDB: Buffer pool(s) load completed at 190904 18:38:38
+[36mdb_1   |[0m Warning: Unable to load '/usr/share/zoneinfo/leap-seconds.list' as time zone. Skipping it.
+[36mdb_1   |[0m 2019-09-04 18:38:48 10 [Warning] 'proxies_priv' entry '@% root@a274fa16c8bb' ignored in --skip-name-resolve mode.
+[36mdb_1   |[0m 
+[36mdb_1   |[0m /usr/local/bin/docker-entrypoint.sh: running /docker-entrypoint-initdb.d/db.sql
+[36mdb_1   |[0m 
+[36mdb_1   |[0m 
+[36mdb_1   |[0m 2019-09-04 18:38:48 0 [Note] mysqld (initiated by: unknown): Normal shutdown
+[36mdb_1   |[0m 2019-09-04 18:38:48 0 [Note] Event Scheduler: Purging the queue. 0 events
+[36mdb_1   |[0m 2019-09-04 18:38:48 0 [Note] InnoDB: FTS optimize thread exiting.
+[36mdb_1   |[0m 2019-09-04 18:38:48 0 [Note] InnoDB: Starting shutdown...
+[36mdb_1   |[0m 2019-09-04 18:38:48 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+[36mdb_1   |[0m 2019-09-04 18:38:48 0 [Note] InnoDB: Buffer pool(s) dump completed at 190904 18:38:48
+[36mdb_1   |[0m 2019-09-04 18:38:50 0 [Note] InnoDB: Shutdown completed; log sequence number 145477; transaction id 33
+[36mdb_1   |[0m 2019-09-04 18:38:50 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+[36mdb_1   |[0m 2019-09-04 18:38:50 0 [Note] mysqld: Shutdown complete
+[36mdb_1   |[0m 
+[36mdb_1   |[0m 
+[36mdb_1   |[0m MySQL init process done. Ready for start up.
+[36mdb_1   |[0m 
+[36mdb_1   |[0m 2019-09-04 18:38:50 0 [Note] mysqld (mysqld 10.4.7-MariaDB-1:10.4.7+maria~bionic) starting as process 1 ...
+[36mdb_1   |[0m 2019-09-04 18:38:50 0 [Note] InnoDB: Using Linux native AIO
+[36mdb_1   |[0m 2019-09-04 18:38:50 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+[36mdb_1   |[0m 2019-09-04 18:38:50 0 [Note] InnoDB: Uses event mutexes
+[36mdb_1   |[0m 2019-09-04 18:38:50 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+[36mdb_1   |[0m 2019-09-04 18:38:50 0 [Note] InnoDB: Number of pools: 1
+[36mdb_1   |[0m 2019-09-04 18:38:50 0 [Note] InnoDB: Using SSE2 crc32 instructions
+[36mdb_1   |[0m 2019-09-04 18:38:50 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+[36mdb_1   |[0m 2019-09-04 18:38:50 0 [Note] InnoDB: Initializing buffer pool, total size = 256M, instances = 1, chunk size = 128M
+[36mdb_1   |[0m 2019-09-04 18:38:50 0 [Note] InnoDB: Completed initialization of buffer pool
+[36mdb_1   |[0m 2019-09-04 18:38:50 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+[36mdb_1   |[0m 2019-09-04 18:38:50 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+[36mdb_1   |[0m 2019-09-04 18:38:50 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+[36mdb_1   |[0m 2019-09-04 18:38:50 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+[36mdb_1   |[0m 2019-09-04 18:38:50 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+[36mdb_1   |[0m 2019-09-04 18:38:50 0 [Note] InnoDB: Waiting for purge to start
+[36mdb_1   |[0m 2019-09-04 18:38:50 0 [Note] InnoDB: 10.4.7 started; log sequence number 145477; transaction id 35
+[36mdb_1   |[0m 2019-09-04 18:38:50 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+[36mdb_1   |[0m 2019-09-04 18:38:50 0 [Note] Plugin 'FEEDBACK' is disabled.
+[36mdb_1   |[0m 2019-09-04 18:38:50 0 [Note] Server socket created on IP: '::'.
+[36mdb_1   |[0m 2019-09-04 18:38:50 0 [Warning] 'proxies_priv' entry '@% root@a274fa16c8bb' ignored in --skip-name-resolve mode.
+[36mdb_1   |[0m 2019-09-04 18:38:50 0 [Note] Reading of all Master_info entries succeeded
+[36mdb_1   |[0m 2019-09-04 18:38:50 0 [Note] Added new Master_info '' to hash table
+[36mdb_1   |[0m 2019-09-04 18:38:50 0 [Note] mysqld: ready for connections.
+[36mdb_1   |[0m Version: '10.4.7-MariaDB-1:10.4.7+maria~bionic'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  mariadb.org binary distribution
+[36mdb_1   |[0m 2019-09-04 18:38:50 0 [Note] InnoDB: Buffer pool(s) load completed at 190904 18:38:50
+[36mdb_1   |[0m 2019-09-04 18:39:05 8 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[33mweb_1  |[0m  * Serving Flask app "flaskapp.py"
+[33mweb_1  |[0m  * Environment: production
+[33mweb_1  |[0m    WARNING: This is a development server. Do not use it in a production deployment.
+[33mweb_1  |[0m    Use a production WSGI server instead.
+[33mweb_1  |[0m  * Debug mode: off
+[33mweb_1  |[0m  * Running on http://0.0.0.0:8088/ (Press CTRL+C to quit)
+[36mdb_1   |[0m 2019-09-04 18:39:35 10 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 18:40:05 11 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 18:40:35 12 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[33mweb_1  |[0m 98.210.199.252 - - [04/Sep/2019 18:40:40] "GET / HTTP/1.1" 200 -
+[33mweb_1  |[0m 98.210.199.252 - - [04/Sep/2019 18:40:42] "GET / HTTP/1.1" 200 -
+[33mweb_1  |[0m 98.210.199.252 - - [04/Sep/2019 18:40:42] "GET / HTTP/1.1" 200 -
+[33mweb_1  |[0m 98.210.199.252 - - [04/Sep/2019 18:40:43] "GET / HTTP/1.1" 200 -
+[33mweb_1  |[0m 98.210.199.252 - - [04/Sep/2019 18:40:43] "GET / HTTP/1.1" 200 -
+[33mweb_1  |[0m 98.210.199.252 - - [04/Sep/2019 18:41:01] "POST /users/create HTTP/1.1" 200 -
+[36mdb_1   |[0m 2019-09-04 18:41:05 13 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[33mweb_1  |[0m 98.210.199.252 - - [04/Sep/2019 18:41:07] "GET /users HTTP/1.1" 200 -
+[33mweb_1  |[0m 98.210.199.252 - - [04/Sep/2019 18:41:11] "DELETE /users/delete HTTP/1.1" 200 -
+[33mweb_1  |[0m 98.210.199.252 - - [04/Sep/2019 18:41:14] "GET /users HTTP/1.1" 200 -
+[36mdb_1   |[0m 2019-09-04 18:41:35 14 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 18:42:05 15 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 18:42:35 16 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 18:43:05 17 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 18:43:35 18 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 18:44:05 19 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 18:44:36 20 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 18:45:06 21 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 18:45:36 22 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 18:46:06 23 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 18:46:36 24 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 18:47:06 25 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 18:47:36 26 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 18:48:06 27 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 18:48:36 28 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 18:49:06 29 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 18:49:36 30 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 18:50:06 31 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 18:50:36 32 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 18:51:07 33 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 18:51:14 9 [Warning] Aborted connection 9 to db: 'mydb' user: 'root' host: '172.21.0.1' (Got timeout reading communication packets)
+[36mdb_1   |[0m 2019-09-04 18:51:37 34 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 18:52:07 35 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 18:52:37 36 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 18:53:07 37 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 18:53:37 38 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 18:54:07 39 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 18:54:37 40 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 18:55:07 41 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 18:55:37 42 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 18:56:07 43 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 18:56:37 44 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 18:57:07 45 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 18:57:38 46 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 18:58:08 47 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 18:58:38 48 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 18:59:08 49 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 18:59:38 50 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 19:00:08 51 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 19:00:38 52 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 19:01:08 53 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 19:01:38 54 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 19:02:08 55 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 19:02:38 56 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 19:03:08 57 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 19:03:39 58 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 19:04:09 59 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 19:04:39 60 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 19:05:09 61 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 19:05:39 62 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 19:06:09 63 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 19:06:39 64 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 19:07:09 65 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 19:07:39 66 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 19:08:09 67 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 19:08:39 68 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 19:09:09 69 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 19:09:39 70 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 19:10:10 71 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 19:10:40 72 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 19:11:10 73 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 19:11:40 74 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 19:12:10 75 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 19:12:40 76 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 19:13:10 77 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[36mdb_1   |[0m 2019-09-04 19:13:40 78 [Warning] Access denied for user 'root'@'172.21.0.1' (using password: NO)
+[33msample_web_1 exited with code 137
+[0m[36mdb_1   |[0m 2019-09-04 19:13:51 0 [Note] mysqld (initiated by: unknown): Normal shutdown
+[36mdb_1   |[0m 2019-09-04 19:13:51 0 [Note] Event Scheduler: Purging the queue. 0 events
+[36mdb_1   |[0m 2019-09-04 19:13:51 0 [Note] InnoDB: FTS optimize thread exiting.
+[36mdb_1   |[0m 2019-09-04 19:13:51 0 [Note] InnoDB: Starting shutdown...
+[36mdb_1   |[0m 2019-09-04 19:13:51 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+[36mdb_1   |[0m 2019-09-04 19:13:51 0 [Note] InnoDB: Buffer pool(s) dump completed at 190904 19:13:51
+[36mdb_1   |[0m 2019-09-04 19:13:53 0 [Note] InnoDB: Shutdown completed; log sequence number 147654; transaction id 45
+[36mdb_1   |[0m 2019-09-04 19:13:53 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+[36mdb_1   |[0m 2019-09-04 19:13:53 0 [Note] mysqld: Shutdown complete
+[36mdb_1   |[0m 
+[36msample_db_1 exited with code 0
+[0m
